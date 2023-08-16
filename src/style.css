@@ -26,6 +26,13 @@ header {
   background-color: white;
 }
 
+footer {
+  color: grey;
+  border-top: 1px solid lightslategrey;
+  padding-top: 1.5rem;
+  margin: 1.5rem;
+}
+
 .banner1 {
   display: flex;
   justify-content: flex-start;
@@ -86,6 +93,38 @@ ul {
     flex-direction: row;
     flex-wrap: nowrap;
   }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .banner1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  article {
+    width: 30rem;
+  }
+
+  .right {
+    padding-left: 80rem;
+  }
 }
 
 li {
@@ -118,5 +157,6 @@ aside ul li a {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  height: auto;
   background-color: white;
 }
